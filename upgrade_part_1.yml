@@ -1,0 +1,7 @@
+- name: "UPGRADE PART #1"
+  hosts: all
+  tasks:
+    - name: "UPGRADE PART #1"
+      set_stats:
+        data:
+          upgrade_specific_data: "123_xyz"

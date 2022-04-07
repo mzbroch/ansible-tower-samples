@@ -1,0 +1,6 @@
+- name: "UPGRADE PART #2"
+  hosts: all
+  tasks:
+    - name: "UPGRADE PART #2"
+      debug:
+        msg: "{{ upgrade_specific_data }}"
