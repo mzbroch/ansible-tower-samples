@@ -5,3 +5,8 @@
       set_stats:
         data:
           upgrade_specific_data: "123_xyz"
+          JENKINS_EXPORT:
+            success: True
+            slack_output: "example_output"
+            cable_check: True
+            local_credential_check: True 
